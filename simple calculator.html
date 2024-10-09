@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+
+    <h1>Variables is JS</h1>
+    <br />
+
+    <h1>Summation</h1>
+    <p id="sum"></p>
+
+    <h1>Subtraction</h1>
+    <p id="sub"></p>
+
+    <h1>Multiplication</h1>
+    <p id="mult"></p>
+
+    <h1>Division</h1>
+    <p id="div"></p>
+
+    <script>
+      document.getElementById("myH").innerHTML = "JavaScript Comments";
+      document.getElementById("myP").innerHTML = "My First Paragraph";
+
+      var age1, age2, sum, sub, mult, div; //Creating Variables
+
+      age1 = 125;
+      age2 = 20;
+
+      sum = age1 + age2;
+      sub = age1 - age2;
+      mult = age1 * age2;
+      div = age1 / age2;
+
+      var sum = age1 + age2;
+
+      document.getElementById("sum").innerHTML = `The Sum is: ${sum}`;
+      document.getElementById("sub").innerHTML = `The Sub is: ${sub}`;
+      document.getElementById("mult").innerHTML = `The Mult is: ${mult}`;
+      document.getElementById("div").innerHTML = `The Div is: ${div}`;
+    </script>
+  </body>
+</html>
